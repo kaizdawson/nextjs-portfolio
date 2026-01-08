@@ -13,8 +13,11 @@ const TAB_DATA = [
       <li>Entity Framework Core</li>
       <li>SQL Server / PostgreSQL</li>
       <li>JWT Authentication & Authorization</li>
+      <li>Request Validation & Basic API Security</li>
+      <li>RESTful API Design & Clean Architecture</li>
       <li>VPS Deployment ( Ubuntu / Linux )</li>
       <li>Basic CI/CD ( GitHub Actions )</li>
+      <li>Git & GitHub Workflow</li>
 </ul>
 
     ),

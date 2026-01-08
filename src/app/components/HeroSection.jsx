@@ -33,6 +33,8 @@ const HeroSection = () => {
           1500,
           "ASP.NET Core Developer",
           1500,
+          "Game Developer",
+          1500,
         ]}
         speed={50}
         repeat={Infinity}
@@ -72,13 +74,33 @@ const HeroSection = () => {
                 lg:w-[400px] lg:h-[400px] 
                 relative overflow-hidden">
 
-  <Image
-    src="/images/kaiz.jpg"
-    alt="hero image"
-    fill
-    className="object-cover"
-    priority
-  />
+  <div
+  className="
+    rounded-full 
+    bg-gradient-to-r from-pink-500 to-purple-500
+    p-[4px]
+    w-[260px] h-[260px]
+    lg:w-[410px] lg:h-[410px]
+  "
+>
+  <div
+    className="
+      rounded-full 
+      bg-[#181818]
+      w-full h-full
+      relative overflow-hidden
+    "
+  >
+    <Image
+      src="/images/kaiz.jpg"
+      alt="Kaiz Dawson avatar"
+      fill
+      className="object-cover"
+      priority
+    />
+  </div>
+</div>
+
 </div>
 
         </motion.div>
