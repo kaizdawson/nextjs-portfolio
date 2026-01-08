@@ -33,7 +33,7 @@ const HeroSection = () => {
           1500,
           "ASP.NET Core Developer",
           1500,
-          "Game Developer",
+          "Unity Game Developer",
           1500,
         ]}
         speed={50}
