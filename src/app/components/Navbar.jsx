@@ -31,9 +31,9 @@ const Navbar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600">
-          K
+          P
           </span>
-          aiz
+          ortfolio
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
