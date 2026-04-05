@@ -9,39 +9,75 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <div className="space-y-6">
-        {/* Programming Languages */}
-        <div>
-          <p className="font-semibold text-white mb-2">Programming Languages</p>
-          <ul className="list-disc pl-4 text-gray-300">
-            <li>C# (.NET, Unity)</li>
-            <li>Lua (Gameplay Scripting)</li>
-          </ul>
-        </div>
+  {/* Programming Languages */}
+  <div>
+    <p className="font-semibold text-white mb-2">Programming Languages</p>
+    <ul className="list-disc pl-4 text-gray-300">
+      <li>C# (.NET, Unity)</li>
+      <li>Lua (Gameplay Scripting)</li>
+    </ul>
+  </div>
 
-        {/* Backend */}
-        <div>
-          <p className="font-semibold text-white mb-2">Backend Development</p>
-          <ul className="list-disc pl-4 text-gray-300">
-            <li>ASP.NET Core Web API</li>
-            <li>SQL Server</li>
-            <li>Entity Framework Core</li>
-            <li>JWT Authentication & Authorization</li>
-            <li>RESTful API Design & Clean Architecture</li>
-            <li>VPS Deployment (Ubuntu / Linux)</li>
-            <li>CI/CD (GitHub Actions – Basic)</li>
-            <li>Git / GitHub Workflow</li>
-          </ul>
-        </div>
+  {/* Backend */}
+  <div>
+    <p className="font-semibold text-white mb-2">Backend Development</p>
+    <ul className="list-disc pl-4 text-gray-300">
+      <li>ASP.NET Core Web API</li>
+      <li>Entity Framework Core</li>
+      <li>RESTful API Design</li>
+      <li>JWT Authentication & Authorization</li>
+      <li>Clean Architecture (Layered, CQRS)</li>
+    </ul>
+  </div>
 
-        {/* Game */}
-        <div>
-          <p className="font-semibold text-white mb-2">Game Development (Additional)</p>
-          <ul className="list-disc pl-4 text-gray-300">
-            <li>Unity (2D Gameplay Development)</li>
-            <li>Gameplay Programming (Movement, Combat, Bot)</li>
-          </ul>
-        </div>
-      </div>
+  {/* Databases */}
+  <div>
+    <p className="font-semibold text-white mb-2">Databases</p>
+    <ul className="list-disc pl-4 text-gray-300">
+      <li>SQL Server</li>
+      <li>PostgreSQL</li>
+      <li>MongoDB (NoSQL, Read Models)</li>
+    </ul>
+  </div>
+
+  {/* Architecture */}
+  <div>
+    <p className="font-semibold text-white mb-2">Architecture & Design</p>
+    <ul className="list-disc pl-4 text-gray-300">
+      <li>Design Patterns (Repository, Unit of Work, Mediator)</li>
+      <li>CQRS Pattern</li>
+      <li>Domain-Driven Design (Basic)</li>
+    </ul>
+  </div>
+
+  {/* DevOps */}
+  <div>
+    <p className="font-semibold text-white mb-2">DevOps & Deployment</p>
+    <ul className="list-disc pl-4 text-gray-300">
+      <li>Docker (Containerization, Docker Compose)</li>
+      <li>VPS Deployment (Ubuntu / Linux)</li>
+      <li>CI/CD (GitHub Actions)</li>
+    </ul>
+  </div>
+
+  {/* Tools */}
+  <div>
+    <p className="font-semibold text-white mb-2">Tools & Workflow</p>
+    <ul className="list-disc pl-4 text-gray-300">
+      <li>Git (Branching, Pull Request, Merge)</li>
+      <li>GitHub / GitLab (Repository, CI/CD – build & deploy basics)</li>
+    </ul>
+  </div>
+
+  {/* Game */}
+  <div>
+    <p className="font-semibold text-white mb-2">Game Development (Additional)</p>
+    <ul className="list-disc pl-4 text-gray-300">
+      <li>Unity (2D Gameplay Development)</li>
+      <li>Gameplay Programming (Movement, Combat, Bot)</li>
+    </ul>
+  </div>
+</div>
 
     ),
   },
