@@ -14,7 +14,7 @@ const TAB_DATA = [
           <p className="font-semibold text-white mb-2">Programming Languages</p>
           <ul className="list-disc pl-4 text-gray-300">
             <li>C# (.NET, Unity)</li>
-            <li>Lua (Gameplay Scripting, Beginner)</li>
+            <li>Lua (Gameplay Scripting)</li>
           </ul>
         </div>
 
@@ -38,7 +38,7 @@ const TAB_DATA = [
           <p className="font-semibold text-white mb-2">Game Development (Additional)</p>
           <ul className="list-disc pl-4 text-gray-300">
             <li>Unity (2D Gameplay Development)</li>
-            <li>Gameplay Programming (Movement, Combat, Basic AI)</li>
+            <li>Gameplay Programming (Movement, Combat, Bot)</li>
           </ul>
         </div>
       </div>
